@@ -32,7 +32,7 @@ This tool uses ConfTools REST API which is documented [here](https://www.conftoo
 Base URL for all calls: https://www.conftool.com/{{conference}}/rest.php?
 
 | Action													| Required? | Option 								| Type 			| Allowed values									|
-|-----------------------------------------------------------|---------------------------------------------------|---------------|---------------------------------------------------|
+|-----------------------------------------------------------|-----------|---------------------------------------|---------------|---------------------------------------------------|
 | Action (fixed value)										| yes		| page									| String		| adminExport										|
 | Data to be exported										| yes		| export_select*						| String        | papers											|
 | Add rows for each author in extended format 				| optional 	| form_export_papers_options%5B%5D		| String		| authors_extended 									|
