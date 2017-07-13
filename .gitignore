@@ -1,0 +1,8 @@
+# dependencies
+node_modules
+
+# output
+out
+
+# configuration
+config.json

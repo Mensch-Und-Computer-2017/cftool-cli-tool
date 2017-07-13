@@ -1,0 +1,4 @@
+{
+	"api_base_url": "https://www.conftool.com/YOUR_CONFTOOL_INSTANCE/rest.php",
+	"api_key": "YOUR_API_KEY"
+}
