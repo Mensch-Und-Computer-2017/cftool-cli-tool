@@ -3,7 +3,7 @@
 /* eslint-env node */
 'use strict';
 
-const ConfTool = require('./lib/conftool'),
+const ConfTool = require('conftooljs'),
   fs = require('fs');
 
 var program = require('commander');
@@ -26,7 +26,7 @@ function writeToFile(data, file) {
 
 function downloadPapers(format, output) {
   let config = require(program.config),
-    api = new ConfTool({
+    api = new ConfTool.Client({
       apiKey: config.api_key,
       baseUrl: config.api_base_url
     });
