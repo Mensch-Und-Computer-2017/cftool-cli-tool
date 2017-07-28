@@ -15,7 +15,7 @@ Run `./download.js` to export data from your ConfTool instance.
 | Option				| Description				| Default Value	| Allowed Values 								|
 |-----------------------|---------------------------|---------------|-----------------------------------------------|
 | -V, --version         | output the version number |				|		 										|
-| -t, --target [value]  | What should be downloaded?| papers    	| papers 										|
+| -t, --target [value]  | What should be downloaded?| papers    	| papers, sessions								|
 | -f, --format [value]  | Output format 			| xml 			| xml, xml_short, csv_comma, csv_semicolon, xls |
 | -o, --output [value]  | Path to output file 		| ./out 		|												|		
 | -c, --config [value]  | Path to config file 		| ./config.json |												|
